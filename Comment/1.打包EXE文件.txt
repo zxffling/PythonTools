@@ -1,0 +1,4 @@
+1.打包py到exe
+pyinstaller -F ExcelToOracle.py
+2.带图标打包exe：
+pyinstaller -F -i ExcelToOracle.ico ExcelToOracle.py
